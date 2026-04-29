@@ -3,11 +3,13 @@
 
 """
 """
+
 本一键包用于windows系统上安装Linux的mamba环境，无需在Linux中格外配置环境。
 适用于RTX50系，cu130
 
 安装包自带通用深度学习库scipy，pandas等等
-和最重要要的mamba_ssm与cuasal-conv1d
+和最重要的mamba_ssm与cuasal-conv1d
+
 """
 """
 
@@ -17,7 +19,9 @@
 
 
 以下为在ubuntu里面安装miniconda，已安装确保你的ubuntu中有 /home/username/miniconda3，即可跳过。
+
 ------------------miniconda_setup--------------------
+
 在下载ubuntu在里面安装miniconda
 以下操作在ubuntu终端窗口执行：
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3.sh
@@ -51,6 +55,7 @@ conda clean -i
 
 
 -----START------
+
 以下操作在ubuntu终端窗口执行：
 创建目标目录：
 mkdir -p ~/miniconda3/envs/mamba-ssm
@@ -70,4 +75,5 @@ which python
 python -c "import mamba_ssm; import causal_conv1d; print('库导入成功，环境迁移完成')"
 
 环境安装完成，可以试试再pycharm上导入wsl的mamba-ssm环境。
+
 -----END------
