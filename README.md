@@ -64,9 +64,9 @@ conda activate mamba-ssm
 conda-unpack
 
 执行完以上步骤后，用以下命令验证环境是否迁移成功：
-# 验证python路径是否正确指向当前环境
+验证python路径是否正确指向当前环境
 which python
-# 验证mamba相关库是否能正常导入
+验证mamba相关库是否能正常导入
 python -c "import mamba_ssm; import causal_conv1d; print('库导入成功，环境迁移完成')"
 
 环境安装完成，可以试试再pycharm上导入wsl的mamba-ssm环境。
