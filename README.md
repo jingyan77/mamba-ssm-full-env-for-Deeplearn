@@ -75,5 +75,6 @@ which python
 python -c "import mamba_ssm; import causal_conv1d; print('库导入成功，环境迁移完成')"
 
 环境安装完成，可以试试再pycharm上导入wsl的mamba-ssm环境。
+python解释器的添加位置于 (/home/user/miniconda3/envs/mamba/bin/python)
 
 -----END------
