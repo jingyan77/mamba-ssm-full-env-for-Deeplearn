@@ -12,6 +12,9 @@
 2，适用于RTX50系（已知60、70Ti按照本步骤安装成功，其余未知），cu130。
 
 3，安装包自带通用深度学习库scipy，pandas等等，和最重要的mamba_ssm与cuasal-conv1d。
+mamba_ssm-2.3.1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl
+causal_conv1d-1.6.1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64
+python3.10.X，torch==2.10.0+cu128，torchaudio==2.7.1+cu128，torchvision==0.22.1+cu128，more detail in requirements.txt
 
 ******************************************************************************************
 
