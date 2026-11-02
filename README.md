@@ -17,7 +17,7 @@
 
 mamba_ssm-2.3.1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl
 
-causal_conv1d-1.6.1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64
+causal_conv1d-1.6.1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl
 
 python3.10.X，torch==2.10.0+cu128，torchaudio==2.7.1+cu128，torchvision==0.22.1+cu128，more detail in requirements.txt
 
